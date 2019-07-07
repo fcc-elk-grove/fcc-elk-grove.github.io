@@ -4,14 +4,11 @@
     background-size: cover;
     height: 46rem;
     width: 100%;
-    position: fixed;
 }
 
 .header {
     background-color: rgba($color-black-1, .35);
     height: 46rem;
-    position: fixed;
-    z-index: 2;
     width: 100%;
     display: flex;
     justify-content: center;
