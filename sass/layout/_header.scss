@@ -1,0 +1,37 @@
+.underlay {
+    background-image: url('../assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46rem;
+    width: 100%;
+    position: fixed;
+}
+
+.header {
+    background-color: rgba($color-black-1, .35);
+    height: 46rem;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &__text-box {
+        width: 71.6%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__tag-box {
+        background-color: $color-black-1;
+        border-radius: 3.8rem;
+        display: flex;
+        width: 82rem;
+        height: 7.6rem;
+        margin: 0 auto;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
