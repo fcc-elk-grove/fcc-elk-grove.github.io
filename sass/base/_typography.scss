@@ -1,0 +1,25 @@
+.heading-primary {
+    color: $color-white-1;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.paragraph {
+    color: $color-white-1;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.tagline {
+    color: $color-white-1;
+
+    &--main {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &--sub {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}

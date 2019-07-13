@@ -1,0 +1,26 @@
+{
+  "name": "fcc-elk-grove.github.io",
+  "version": "1.0.0",
+  "description": "fcc-elkgrove",
+  "main": "script.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss build/style.css",
+    "compile": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaleidics/fcc-elk-grove.github.io.git"
+  },
+  "keywords": [
+    "fcc-elkgrove"
+  ],
+  "author": "Jeff Low, Javier Alvarado, Eddie Chu, Keith Thor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaleidics/fcc-elk-grove.github.io/issues"
+  },
+  "homepage": "https://github.com/Kaleidics/fcc-elk-grove.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

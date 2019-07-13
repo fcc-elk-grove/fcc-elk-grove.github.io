@@ -1,0 +1,18 @@
+.btn {
+    width: 22.2rem;
+    border-radius: 2.2rem;
+    height: 4.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+
+    &--red {
+        background-color: $color-red-1;
+    }
+
+    span {
+        color: $color-white-1;
+        font-size: 1.5rem;
+    }
+}

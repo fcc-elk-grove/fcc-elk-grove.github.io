@@ -1,0 +1,11 @@
+.section-featured {
+    background-color: $color-grey-1;
+    padding: 5rem 14rem;
+
+    .featured-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 85%;
+        margin: 0 auto;
+    }
+}
