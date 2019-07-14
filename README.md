@@ -49,7 +49,7 @@ git clone https://github.com/fcc-elk-grove/fcc-elk-grove.github.io.git
 npm install
 ```
 
-3. Once the repository as finished installing navigate into the new directory.
+3. Once the repository has finished installing navigate into the new directory.
 
 4. We will have to re-compile the SASS files to CSS locally, since the CSS files are not committed to the remote repository
 
