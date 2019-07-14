@@ -49,19 +49,13 @@ git clone https://github.com/fcc-elk-grove/fcc-elk-grove.github.io.git
 npm install
 ```
 
-3. To compile SASS to a local project, create a new folder in the root directory of the project called `build` and change the style link in the `index.html` from:
+3. Once the repository has finished installing navigate into the new directory.
 
-```
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-```
-to
-```
-        <link href="build/style.css" rel="stylesheet" type="text/css" />
-```
-4. Run the following in the terminal `npm run sass` to compile your SASS to CSS locally.
+4. We will have to re-compile the SASS files to CSS locally, since the CSS files are not committed to the remote repository
+
+5. Run `npm run compile` to generate the css for your local development. Open the index.html file and your version of the project should be up.
 
 
-5. Run `start index.html` in your terminal to open your local `index.html`.
 
 ## Contributors
 
