@@ -49,9 +49,9 @@ git clone https://github.com/fcc-elk-grove/fcc-elk-grove.github.io.git
 npm install
 ```
 
-3. Once the repository has finished installing navigate into the new directory.
+3. Wait for the installation to complete.
 
-4. We will have to re-compile the SASS files to CSS locally, since the CSS files are not committed to the remote repository
+4. We will have to re-compile the SASS files to CSS locally, since the CSS files are not committed to the remote repository.
 
 5. Run `npm run compile` to generate the css for your local development. Open the index.html file and your version of the project should be up.
 
