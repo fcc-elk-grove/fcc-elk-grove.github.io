@@ -59,6 +59,6 @@ npm install
 
 ## Contributors
 
-* **Javier Alvarado** - *Project Manager* - 
+* **Javier Alvarado** - *Project Manager* - Test change
 * **Jeff Low** - *Design* - 
 * **Eddie Chu** - *Initial work* - [eddiechu.dev](https://www.eddiechu.dev/)
