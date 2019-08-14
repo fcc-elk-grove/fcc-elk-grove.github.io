@@ -4,8 +4,14 @@
 
     .featured-container {
         display: flex;
-        justify-content: space-evenly;
-        width: 85%;
+        justify-content: space-between;
+        width: 100%;
         margin: 0 auto;
+
+        &__half {
+            width: 49.5%;
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }
