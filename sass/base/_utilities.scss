@@ -16,9 +16,28 @@
 .u-text-normal { font-size: 1.6rem !important; }
 .u-text-small { font-size: 1.3rem !important; }
 
+.u-padding-small { padding: 1.5rem 2rem !important; }
+
 .u-padded-border-left-red {
-    padding: 0 3rem !important;
+    padding-left: 3rem !important;
     border-left: 6px solid $color-red-2 !important;
 }
 
+.u-padded-border-left-green {
+    padding-left: 2rem !important;
+    border-left: 6px solid $color-green-1 !important;
+}
+
+.u-padded-border-left-blue {
+    padding-left: 2rem !important;
+    border-left: 6px solid $color-blue-1 !important;
+}
+
 .u-force-half { width: 49% !important; }
+
+.u-force-bottom {
+    position: 0 !important;
+    bottom: 0 !important;
+    height: 33.3% !important;
+    width: 100% !important;
+}
