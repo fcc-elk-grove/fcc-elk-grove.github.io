@@ -11,17 +11,18 @@
         &__half {
             max-width: 49.5%;
 
-            min-width: 75rem;
+            // min-width: 75rem;
+            width: 75rem;
             display: flex;
             justify-content: space-between;
             margin-right: 1.5rem;
             margin-bottom: 1rem;
         }
 
-        @media (max-width: 1660px) {
-            flex-direction: column;
-            align-items: center;
-        }
+        // @media (max-width: 1660px) {
+        //     flex-direction: column;
+        //     align-items: center;
+        // }
     }
 }
 

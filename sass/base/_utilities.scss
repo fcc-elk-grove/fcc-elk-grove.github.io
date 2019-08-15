@@ -15,8 +15,10 @@
 // .u-half-with-gutter { width: 47% !important; }
 // .u-quarter-with-gutter { width: 23% !important; }
 
-.u-text-normal { font-size: 1.6rem !important; }
-.u-text-small { font-size: 1.3rem !important; }
+.u-text-large { font-size: 1.6vw !important; }
+.u-text-big { font-size: 1vw !important; }
+.u-text-normal { font-size: .9vw !important; }
+.u-text-small { font-size: .8vw !important; }
 
 .u-padding-small { padding: 1.5rem 1rem !important; }
 
@@ -46,6 +48,6 @@
 .u-force-bottom {
     position: 0 !important;
     bottom: 0 !important;
-    height: 33.3% !important;
+    height: 45% !important;
     width: 100% !important;
 }
