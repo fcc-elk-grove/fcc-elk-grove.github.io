@@ -18,7 +18,7 @@
             margin-bottom: 1rem;
         }
 
-        @media(max-width:1660px) {
+        @media (max-width: 1660px) {
             flex-direction: column;
             align-items: center;
         }
@@ -41,17 +41,26 @@
 
 .section-networking {
     width: 100%;
-    height: 43rem;
-    background:linear-gradient(0deg, rgba($color-black-3,0.66),rgba($color-black-3,0.66)), url('../assets/codebg.png');
+    min-height: 43rem;
+    background: linear-gradient(0deg, rgba($color-black-3, 0.66), rgba($color-black-3, 0.66)), url("../assets/codebg.png");
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 1200px) {
+        padding: 2rem 0;
+    }
 
     .networking-blocks {
         width: 60%;
         display: flex;
         flex-direction: row;
         margin: 0 auto;
+
+        @media (max-width: 1200px) {
+            flex-direction: column;
+        }
     }
 }
