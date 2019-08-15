@@ -1,17 +1,24 @@
 .section-featured {
     background-color: $color-grey-1;
-    padding: 5rem 14rem;
+    padding: 5rem 0 3rem 0;
 
     .featured-container {
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 85%;
         margin: 0 auto;
 
         &__half {
             width: 49.5%;
+            min-width: 75rem;
             display: flex;
             justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        @media(max-width:1800px) {
+            flex-direction: column;
+            align-items: center;
         }
     }
 }
