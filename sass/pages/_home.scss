@@ -8,6 +8,11 @@
         width: 85%;
         margin: 0 auto;
 
+        // @media(max-width:1180px) {
+        //     flex-direction: column;
+        //     align-items: center;
+        // }
+
         &__half {
             max-width: 49.5%;
 
