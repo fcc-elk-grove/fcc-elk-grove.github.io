@@ -1,7 +1,11 @@
 .u-margin-top-medium { margin-top: 5rem !important; }
 
+.u-margin-bottom-smallest { margin-bottom: 1rem !important; }
+.u-margin-bottom-smaller { margin-bottom: 1.5rem !important; }
 .u-margin-bottom-small { margin-bottom: 2.5rem !important; }
 .u-margin-bottom-medium { margin-bottom: 3.5rem !important; }
+.u-margin-bottom-large { margin-bottom: 7rem !important; }
+
 
 .u-margin-left-small { margin-left: 2rem !important; }
 .u-margin-left-medium { margin-left: 4rem !important; }
@@ -9,5 +13,42 @@
 
 .u-text-shadow-1 { text-shadow: 0 .3rem .6rem rgba($color-black-1, .4) !important; }
 
-.u-half-with-gutter { width: 47% !important; }
-.u-quarter-with-gutter { width: 23% !important; }
+// .u-half-with-gutter { width: 47% !important; }
+// .u-quarter-with-gutter { width: 23% !important; }
+
+.u-text-large { font-size: 1.6vw; }
+.u-text-big { font-size: 1.1vw; }
+.u-text-normal { font-size: .9vw; }
+.u-text-small { font-size: .7vw; }
+
+.u-padding-small { padding: 1.5rem 1rem !important; }
+
+.u-padded-border-left-red {
+    padding-left: 3rem !important;
+    border-left: 6px solid $color-red-2 !important;
+}
+
+.u-padded-border-left-green {
+    padding-left: 2rem !important;
+    border-left: 6px solid $color-green-1 !important;
+}
+
+.u-padded-border-left-blue {
+    padding-left: 2rem !important;
+    border-left: 6px solid $color-blue-1 !important;
+}
+
+.u-padded-border-left-purple {
+    padding-left: 3rem !important;
+    border-left: 6px solid $color-purple-2 !important;
+}
+
+.u-force-half { width: 49% !important; max-width: 398px !important; }
+.u-force-third { width: 33% !important; }
+
+.u-force-bottom {
+    position: 0 !important;
+    bottom: 0 !important;
+    height: 45% !important;
+    width: 100% !important;
+}

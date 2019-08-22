@@ -1,7 +1,7 @@
 .btn {
     width: 22.2rem;
     border-radius: 2.2rem;
-    height: 4.4rem;
+    height: 4.3rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -9,6 +9,11 @@
 
     &--red {
         background-color: $color-red-1;
+    }
+
+    &--purple {
+        max-width: 15rem;
+        background-color: $color-purple-2;
     }
 
     span {
