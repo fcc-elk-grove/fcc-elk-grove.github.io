@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+
+    &__main {
+        width: 40rem;
+        margin: 3.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__heading {
+        font-size: 1.8rem;
+        color: $color-white-1;
+        margin-bottom: 2rem;
+    }
+
+    &__address {
+        font-size: 1.5rem;
+        color: $color-white-1;
+        margin-bottom: 2rem;
+    }
+
+    &__sub {
+        margin-bottom: 3rem;
+        line-height: 1.5;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 1.5rem;
+        color: $color-grey-2;
+    }
+}
