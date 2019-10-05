@@ -27,6 +27,12 @@
         }
     }
 
+    &__logo-box {
+        @media (max-width: 850px) {
+            margin: 0 auto;
+        }
+    }
+
     &__list {
         display: flex;
         justify-content: space-between;
@@ -82,4 +88,8 @@
         margin: .5rem 0;
         margin-left: auto;
     }
+}
+
+.hide {
+    display: none;
 }
