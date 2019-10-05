@@ -15,11 +15,13 @@
     flex-direction: column;
 
     &__text-box {
-        width: 58%;
-        margin: 0 auto;
         text-align: center;
     }
 
+    &__paragraph {
+        margin: 0 auto;
+        width: 58%;
+    }
     &__tag-box {
         background-color: $color-black-1;
         border-radius: 3.8rem;
@@ -30,5 +32,9 @@
         text-align: left;
         align-items: center;
         justify-content: space-between;
+
+         @media (max-width: 840px) {
+            margin: 0.5rem 0;
+        }
     }
 }
