@@ -1,0 +1,46 @@
+.heading-primary {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 4.5rem; }
+
+.heading-secondary {
+  color: #FFF;
+  font-size: 3.2rem;
+  font-weight: 700; }
+  @media (max-width: 1180px) {
+    .heading-secondary {
+      font-size: 3.2rem !important; } }
+  @media (min-width: 1920px) {
+    .heading-secondary {
+      font-size: 3.2rem !important; } }
+
+.heading-tertiary {
+  color: #FFF;
+  font-size: 2.1rem;
+  font-weight: 700; }
+  @media (max-width: 1180px) {
+    .heading-tertiary {
+      font-size: 2.1rem !important; } }
+  @media (min-width: 1920px) {
+    .heading-tertiary {
+      font-size: 2.1rem !important; } }
+
+.paragraph {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 1.8rem; }
+  @media (max-width: 1180px) {
+    .paragraph {
+      font-size: 1.7rem !important; } }
+  @media (min-width: 1920px) {
+    .paragraph {
+      font-size: 1.7rem !important; } }
+
+.tagline {
+  color: #FFF; }
+  .tagline--main {
+    font-size: 2rem;
+    font-weight: 700; }
+  .tagline--sub {
+    font-size: 1.3rem;
+    font-weight: 400; }

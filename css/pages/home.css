@@ -1,0 +1,53 @@
+.section-featured {
+  background-color: #1A1D22;
+  padding: 5rem 0 3rem 0; }
+  .section-featured .featured-container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto; }
+    .section-featured .featured-container__half {
+      max-width: 49.5%;
+      width: 75rem;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 1.5rem;
+      margin-bottom: 1rem; }
+    @media (max-width: 1180px) {
+      .section-featured .featured-container {
+        flex-direction: column;
+        align-items: center; }
+        .section-featured .featured-container__half {
+          min-width: 75rem; } }
+
+.section-hosting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #13161F;
+  padding: 4.5rem 0; }
+  .section-hosting .topic-blocks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+
+.section-networking {
+  width: 100%;
+  min-height: 43rem;
+  background: linear-gradient(0deg, rgba(19, 5, 64, 0.66), rgba(19, 5, 64, 0.66)), url("../assets/codebg.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  @media (max-width: 1200px) {
+    .section-networking {
+      padding: 2rem 0; } }
+  .section-networking .networking-blocks {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; }
+    @media (max-width: 1200px) {
+      .section-networking .networking-blocks {
+        flex-direction: column; } }

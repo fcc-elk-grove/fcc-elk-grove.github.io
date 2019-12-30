@@ -1,0 +1,8 @@
+.topic-box {
+  display: inline-block;
+  max-height: 32rem;
+  padding: 2rem 3rem;
+  width: 52rem;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  margin-bottom: 1rem; }

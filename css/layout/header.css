@@ -1,0 +1,32 @@
+.underlay {
+  background-image: url("../assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 46rem;
+  width: 100%; }
+
+.header {
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 46rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .header__text-box {
+    text-align: center; }
+  .header__paragraph {
+    margin: 0 auto;
+    width: 58%; }
+  .header__tag-box {
+    background-color: #000;
+    border-radius: 3.8rem;
+    display: flex;
+    width: 82rem;
+    height: 7.6rem;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between; }
+    @media (max-width: 840px) {
+      .header__tag-box {
+        margin: 0.5rem 0; } }
