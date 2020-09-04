@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Kaleidics/fcc-elk-grove.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
